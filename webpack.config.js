@@ -13,7 +13,6 @@ module.exports = {
     resolve:{
            extensions: ['','.js','.jsx']
         },
-    plugins:[],
     module:{
                 loaders:[{
                         test: /.jsx?$/,
@@ -21,6 +20,7 @@ module.exports = {
                         exclude : /node_modules/,
                         query:{
                                 presets:['es2015','react'],
+                                plugins:['transform-object-rest-spread']
                                      }
                  }]
     }
