@@ -10,9 +10,7 @@ module.exports = {
             port: 8081,
             contentBase: './public'
     },
-    plugins:[
-            new ExtractTextPlugin('app.css')
-    ],
+    plugins:[],
     module:{
                 loaders:[{
                         test: /.jsx?$/,
