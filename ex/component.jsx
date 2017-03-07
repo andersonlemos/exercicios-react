@@ -1,6 +1,10 @@
 import React from 'react';
 
-//Arrow function
-export default  Component => (
-    <h1>Primeiro componente!</h1>
+const Primeiro = props => (
+    <h1>Primeiro Componente!</h1>
 );
+const Segundo = props =>(
+    <h1>Segundo Componente!</h1>
+);
+
+export {Primeiro,Segundo};
